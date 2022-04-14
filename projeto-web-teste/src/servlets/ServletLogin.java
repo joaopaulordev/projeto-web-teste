@@ -24,7 +24,7 @@ public class ServletLogin extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		System.out.println("projeto web teste: " + request.getParameter("nome"));
+		System.out.println(request.getParameter("nome"));
 		System.out.println(request.getParameter("idade"));
 
 	}
